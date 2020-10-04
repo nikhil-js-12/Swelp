@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "45443676978",
+    "firebase_url": "https://swelp-2ce40.firebaseio.com",
+    "project_id": "swelp-2ce40",
+    "storage_bucket": "swelp-2ce40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45443676978:android:0f1c46ae6138d77f22f52b",
+        "android_client_info": {
+          "package_name": "com.nikhilstudios12.swelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45443676978-os0un6j3lu2ea4gluk4uge75k7vvlphp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nikhilstudios12.swelp",
+            "certificate_hash": "5d60a5f6aa84a252d0242133cfd4a4b13c84c820"
+          }
+        },
+        {
+          "client_id": "45443676978-hpsda6s1odgvkkino9refkhabm5qivjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVzBUXhel_c6e_rR6ko66yrmk134KxAow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45443676978-hpsda6s1odgvkkino9refkhabm5qivjq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

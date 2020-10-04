@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nikhilstudios12.swelp">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Existing_User" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Edit_Profile" android:parentActivityName=".User_Profile"/>
+        <activity android:name=".User_Profile" android:parentActivityName=".Entry" />
+        <activity android:name=".Entry" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".hospitals.Kamakshi" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".hospitals.Madras" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".hospitals.Srm" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".hospitals.Kauvery" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".hospitals.Sims" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".hospitals.Miot" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".hospitals.Vijaya" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".hospitals.Billroth" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".hospitals.Apollo" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".hospitals.Malar" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".inside.List" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".inside.Symptoms" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".inside.Confirm" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".inside.Quarantine" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".inside.Map" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".inside.Confirmation" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".auth.Splash" android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".inside.Would" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".inside.Travel" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".inside.Alternative" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".auth.Register" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".auth.Login" android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity" android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "482252913146",
+    "firebase_url": "https://swelp-community-989a2.firebaseio.com",
+    "project_id": "swelp-community-989a2",
+    "storage_bucket": "swelp-community-989a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482252913146:android:631d2926969a57806b4c43",
+        "android_client_info": {
+          "package_name": "com.nikhilstudios12.swelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482252913146-r23sbo58e2ite3fpag4c2i2e574c7s2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCInF2kwpe77J7ls2VgfBT3NcSUcfvU1Zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482252913146-r23sbo58e2ite3fpag4c2i2e574c7s2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
